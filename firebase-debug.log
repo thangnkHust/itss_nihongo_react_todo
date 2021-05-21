@@ -1,0 +1,17 @@
+[debug] [2021-05-21T08:15:08.285Z] ----------------------------------------------------------------------
+[debug] [2021-05-21T08:15:08.287Z] Command:       /home/nguyen.khac.thang/.nvm/versions/node/v14.17.0/bin/node /home/nguyen.khac.thang/.nvm/versions/node/v14.17.0/bin/firebase deploy
+[debug] [2021-05-21T08:15:08.287Z] CLI Version:   9.11.0
+[debug] [2021-05-21T08:15:08.287Z] Platform:      linux
+[debug] [2021-05-21T08:15:08.287Z] Node Version:  v14.17.0
+[debug] [2021-05-21T08:15:08.288Z] Time:          Fri May 21 2021 15:15:08 GMT+0700 (Indochina Time)
+[debug] [2021-05-21T08:15:08.288Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-21T08:15:08.301Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-21T08:15:08.301Z] > authorizing via signed-in user (nguyen.khac.thang@sun-asterisk.com)
+[debug] [2021-05-21T08:15:08.301Z] [iam] checking project itss-nihongo-todos for permissions ["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2021-05-21T08:15:08.303Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-05-21T08:15:08.303Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-21T08:15:08.623Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Fri, 21 May 2021 08:15:08 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-21T08:15:08.642Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-nihongo-todos:testIamPermissions  
+ {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
